@@ -11,8 +11,6 @@ const Forms = ({errors, touched, status}) => {
         status && setUsers(users => [...users, status])
     }, [status]);
 
-
-
     return (
         <div>
             <Form>
