@@ -14,7 +14,7 @@ const Forms = ({errors, touched, status}) => {
 
     return (
         <div>
-            <Title>Create Profile</Title>
+            <Title>Sign Up</Title>
             <FormContainer>
                 {/* GETTING USER'S NAME */}
                 <Label htmlFor='name' >Name:</Label>

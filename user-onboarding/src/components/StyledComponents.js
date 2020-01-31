@@ -18,9 +18,10 @@ export const FormContainer = styled(Form)`
     align-content: center;
     margin: 0 auto;
     width: 17%;
-    background: white;
+    background: #F5F5F5;
     padding: 1.5rem;
-    box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.75);
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px 0px rgba(40,40,40,0.75);
     button{
         margin: 1rem auto 0 auto;
         width: 50%;
@@ -71,13 +72,14 @@ export const Term = styled.label`
 
 export const Card = styled.div`
     border-radius: 10px;
-    background: white;
+    background: #F5F5F5;
     width: 20%;
     margin: 2rem auto;
     padding: .5rem 1.5rem; 1rem 0;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid black;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(40,40,40,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(40,40,40,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(40,40,4040,40,40,0.75);
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     h1{
