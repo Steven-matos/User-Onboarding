@@ -1,16 +1,17 @@
 import React from 'react';
+import {Card} from './StyledComponents';
 
 const UserCards = ({users}) => {
     return (
         <div>
             {users.map(users => {
                 return (
-                    <div key={users.id}>
+                    <Card key={users.id}>
                         <h1>Profile Created</h1>
-                        <h2>Name: {users.name}</h2>
+                        <h2>{users.name}</h2>
                         <p>Email: {users.email}</p>
                         <p>Password: {users.password.length} Characters Long!</p>
-                    </div>
+                    </Card>
                 );
             })}
         </div>
