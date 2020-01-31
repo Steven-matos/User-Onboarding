@@ -8,6 +8,7 @@ export const Error = styled.p`
 
 export const Title = styled.h1`
     font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
 `;
 
 export const FormContainer = styled(Form)`
@@ -17,13 +18,15 @@ export const FormContainer = styled(Form)`
     align-content: center;
     margin: 0 auto;
     width: 17%;
+    background: white;
+    padding: 1.5rem;
+    box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.75);
     button{
         margin: 1rem auto 0 auto;
         width: 50%;
         background: #18E2B5;
         border: 1px solid #000000;
-        border-radius: 1000px;
-        box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+        border-radius: 10px;
         padding: 8px 20px;
         color: #ffffff;
         display: inline-block;
